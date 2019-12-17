@@ -5,13 +5,13 @@ C#
 ```
 private static MimeType GetMimeType(string filePath)
 {
-   MimeTypes g_MimeTypes As New MimeTypes();
-   return g_MimeTypes.GetMimeTypeFromFile(filePath);
+   MimeTypes mimeTypes As New MimeTypes();
+   return mimeTypes.GetMimeTypeFromFile(filePath);
 }
 
 VB.Net
 Private Shared Function GetMimeType(ByVal filePath As String) As MimeType
-   Dim g_MimeTypes As New MimeTypes()
-   Return g_MimeTypes.GetMimeTypeFromFile(filePath)
+   Dim _MimeTypes As New MimeTypes()
+   Return _MimeTypes.GetMimeTypeFromFile(filePath)
 End Function
 ```
