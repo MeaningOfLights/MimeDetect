@@ -15,3 +15,4 @@ Private Shared Function GetMimeType(ByVal filePath As String) As MimeType
    Return _MimeTypes.GetMimeTypeFromFile(filePath)
 End Function
 ```
+REF: https://stackoverflow.com/questions/15300567/alternative-to-findmimefromdata-method-in-urlmon-dll-one-which-has-more-mime-typ
